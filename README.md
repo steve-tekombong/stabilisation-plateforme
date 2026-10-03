@@ -1,6 +1,6 @@
 Stabilisation Active d'une Plateforme
 
-Conception, construction et stabilisation active d’une plateforme à l’aide d’un capteur inertiel MPU-6050, d’un Raspberry Pi Pico WH et d’un asservissement PID.
+Conception, construction et stabilisation active d’une plateforme à l’aide d’un capteur inertiel MPU-6050, d'un servomoteur, d’un Raspberry Pi Pico WH et d’un asservissement PID.
 
 ![Plateforme de stabilisation TIPE](docs/Images/Plateforme-1.jpeg)
 
