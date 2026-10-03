@@ -2,7 +2,7 @@
 <div align="center">
   <img src="docs/Images/Plateforme-1.jpeg" width="500" alt="Plateforme de stabilisation TIPE">
   <br>
-  <h2> Conception et Stabilisation active d'une plateforme </h2>
+  <h1> Conception et Stabilisation active d'une plateforme </h1>
 </div>
 
 
@@ -19,7 +19,7 @@ Le code embarqué tourne sur une carte Raspberry Pi Pico WH et est développé e
 - **Asservissement** : Le correcteur PID calcule la commande à envoyer aux moteurs pour corriger l'écart angulaire, avec un temps d'échantillonnage constant (cycles) pour assurer la stabilité.
 - **Actionnement** : Les corrections sont générées sous forme de signaux PWM envoyés aux servomoteurs de la structure.
 
-## Analyse des Résultats (Dossier data_analysis) ##
+## Analyse des Résultats (Dossier data_analysis) 
 
 Pendant que le système fonctionne, le microcontrôleur envoie les données télémétriques en temps réel sur le port série. Des scripts Python récupèrent ces informations avec la bibliothèque PySerial et les stockent automatiquement sous forme de fichiers CSV. Pour fluidifier l'exploitation, tout le système de traitement a été automatisé : il suffit d'un simple clic pour exécuter le script qui lit les données, les traite et génère instantanément les graphiques 'matplotlib' comparant l'inclinaison brute et l'angle corrigé par le servo.Cette automatisation a grandement facilité l'analyse de l'efficacité de la boucle et l'ajustement expérimental des coefficients Kp et Ki du correcteur.Pour valider la robustesse du code, les tests ont été réalisés sur une plateforme de Stewart simulant des trajectoires dynamiques (séismes, houle).
 
