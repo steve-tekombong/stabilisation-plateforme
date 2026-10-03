@@ -31,7 +31,7 @@ Pendant que le système fonctionne, le microcontrôleur envoie les données tél
 
 ## Répartition du travail
 
-Ce projet a été réalisé en binôme avec Clarence Jutier. Ma contribution s'est principalement concentrée sur le système embarqué, le traitement des données, l'asservissement PID et l'analyse expérimentale. La conception mécanique et la CAO de la plateforme ont principalement été réalisées par Clarence Jutier.
+Ce projet a été réalisé en binôme avec Clarence Jutier. Ma contribution s'est principalement concentrée sur le système embarqué, le traitement des données. Nous avons étudié ensemble l'asservissement PID et l'analyse expérimentale. La conception mécanique et la CAO de la plateforme ont principalement été réalisées par Clarence Jutier.
 
 ---
 Steve TEKOMBONG
