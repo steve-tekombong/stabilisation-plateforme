@@ -25,8 +25,9 @@ Pendant que le système fonctionne, le microcontrôleur envoie les données tél
 
 ## Documentation
 
-[Synthèse scientifique du TIPE](docs/Synthèse_scientifique_du_TIPE.pdf)
-[Présentation du TIPE](docs/Présentation_TIPE.pdf)
+- [Synthèse scientifique du TIPE](docs/Synthèse_scientifique_du_TIPE.pdf)
+- [Présentation du TIPE](docs/Présentation_TIPE.pdf)
+- [Images](docs/Images)
 
 ## Répartition du travail
 
