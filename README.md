@@ -1,8 +1,9 @@
 <p align="center">
   <img src="docs/Images/Plateforme-1.jpeg" width="500" alt="Plateforme de stabilisation TIPE">
+  <br>
+  <h1>Stabilisation Active d'une Plateforme</h1>
 </p>
 
-                                                                                  Stabilisation Active d'une Plateforme
 
 Conception, construction et stabilisation active d’une plateforme à l’aide d’un capteur inertiel MPU-6050, d'un servomoteur, d’un Raspberry Pi Pico WH et d’un asservissement PID.
 
