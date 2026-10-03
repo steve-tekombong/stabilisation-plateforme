@@ -1,4 +1,8 @@
+
 ![Plateforme de stabilisation TIPE](docs/Images/Plateforme-1.jpeg)
+<p align="center">
+  <img src="docs/Images/Plateforme-1.jpeg" width="500" alt="Plateforme de stabilisation TIPE">
+</p>
 
 Stabilisation Active d'une Plateforme
 
