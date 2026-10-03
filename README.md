@@ -2,7 +2,7 @@
 <div align="center">
   <img src="docs/Images/Plateforme-1.jpeg" width="500" alt="Plateforme de stabilisation TIPE">
   <br>
-  <h1> Conception et Stabilisation active d'une plateforme </h1>
+  <h1> Conception et stabilisation active d'une plateforme </h1>
 </div>
 
 
