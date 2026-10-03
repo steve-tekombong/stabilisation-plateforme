@@ -80,7 +80,7 @@ La conception mécanique et la CAO de la plateforme ont principalement été
 
 réalisées par Clarence Jutier.
 
-
+![Plateforme de stabilisation TIPE](./docs/plateforme-1.jpg)
 
 \---
 
