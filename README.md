@@ -10,7 +10,7 @@
 
 Le projet global s'inspire des systèmes d'amortissement du génie civil, comme la tour Taipei 101, et de la compensation de la houle pour les navires. Notre rôle s'est concentré sur le développement informatique et le traitement des signaux pour maintenir la plateforme horizontale malgré les perturbations. L'objectif logiciel est de traiter les données d'un capteur inertiel MPU-6050. Ensuite, il faut piloter des servomoteurs avec un microcontrôleur pour compenser l'inclinaison de la maquette. La logique globale est gérée par une boucle d'asservissement PID.
 
-## Architecture logicielle (Dossier src)
+## Architecture logicielle (dossier src)
 
 Le code embarqué tourne sur une carte Raspberry Pi Pico WH et est développé en MicroPython.
 
@@ -19,7 +19,7 @@ Le code embarqué tourne sur une carte Raspberry Pi Pico WH et est développé e
 - **Asservissement** : Le correcteur PID calcule la commande à envoyer aux moteurs pour corriger l'écart angulaire, avec un temps d'échantillonnage constant (cycles) pour assurer la stabilité.
 - **Actionnement** : Les corrections sont générées sous forme de signaux PWM envoyés aux servomoteurs de la structure.
 
-## Analyse des résultats (Dossier data_analysis) 
+## Analyse des résultats (dossier data_analyses) 
 
 Pendant que le système fonctionne, le microcontrôleur envoie les données télémétriques en temps réel sur le port série. Des scripts Python récupèrent ces informations avec la bibliothèque PySerial et les stockent automatiquement sous forme de fichiers CSV. Pour fluidifier l'exploitation, tout le système de traitement a été automatisé : il suffit d'un simple clic pour exécuter le script qui lit les données, les traite et génère instantanément les graphiques 'matplotlib' comparant l'inclinaison brute et l'angle corrigé par le servo.Cette automatisation a grandement facilité l'analyse de l'efficacité de la boucle et l'ajustement expérimental des coefficients Kp et Ki du correcteur.Pour valider la robustesse du code, les tests ont été réalisés sur une plateforme de Stewart simulant des trajectoires dynamiques (séismes, houle).
 
