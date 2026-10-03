@@ -2,11 +2,11 @@
 <div align="center">
   <img src="docs/Images/Plateforme-1.jpeg" width="500" alt="Plateforme de stabilisation TIPE">
   <br>
-  <h2>Stabilisation Active d'une Plateforme Multi-axes 🚀</h2>
+  <h2> Conception et Stabilisation Active d'une Plateforme </h2>
 </div>
 
 
-Conception, construction et stabilisation active d’une plateforme à l’aide d’un capteur inertiel MPU-6050, d'un servomoteur, d’un Raspberry Pi Pico WH et d’un asservissement PID.
+Conception et stabilisation active d’une plateforme à l’aide d’un capteur inertiel MPU-6050, d'un servomoteur, d’un Raspberry Pi Pico WH et d’un asservissement PID.
 
 Ce dépôt présente la partie logicielle et l'analyse de données de mon projet de TIPE réalisé en binôme avec Clarence Jutier en prépa PSI. Le but est de programmer un système capable de stabiliser dynamiquement une plateforme matérielle que nous avons construite.
 
